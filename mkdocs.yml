@@ -1,6 +1,6 @@
-site_name: "Exp2 : MkDocs+Pyodide"
-site_url: https://ens-fr.gitlab.io/exp2
-repo_url: https://gitlab.com/ens-fr/exp2
+site_name: "test_MkDocs_Pyodide"
+site_url: https://ericecmorlaix.github.io/test_MkDocs_Pyodide/
+repo_url: https://github.com/ericECmorlaix/test_MkDocs_Pyodide
 edit_uri: tree/main/docs/
 
 docs_dir: docs
@@ -93,10 +93,16 @@ markdown_extensions:
 
 extra:
     social:
-        - icon: fontawesome/brands/discourse
-          link: https://mooc-forums.inria.fr/moocnsi/
-          name: Le forum des enseignants de NSI
-    site_url: https://e-nsi.gitlab.io/exp2/
+        - icon: fontawesome/solid/paper-plane
+          link: "mailto:eric.madec@ecmorlaix.fr?subject=ADN - Tutoriel documentation web&body=Votre question : ..."
+          name: Pour toute question, suggestion ou commentaire, écrire à l'auteur
+        - icon: fontawesome/brands/github
+          link: https://github.com/ericECmorlaix/test_MkDocs_Pyodide
+          name: dépôt github
+        - icon: fontawesome/solid/school
+          link: https://www.ecmorlaix.fr/nos-etablissements/lycee-notre-dame-du-mur/
+          name: Lycée Notre Dame du Mur
+        
 
 
 plugins:
