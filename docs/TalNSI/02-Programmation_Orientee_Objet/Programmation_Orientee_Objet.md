@@ -13,7 +13,7 @@ Ajourdh'hui de nombreux langages permettent d'utiliser le paradigme objet : C++,
 
 Prenons une chaîne de caractère quelconque : *chaine*. Completez la ligne ci-dessous pour transformer cette chaîne avec uniquement des minuscules :
 
-{{ IDEv('scripts/test') }}
+{{ IDEv('./scripts/exemple') }}
 
 
 Vous venez tout juste d'utiliser *chaine* comme un **objet** en utilisant la **méthode** *lower()*.
