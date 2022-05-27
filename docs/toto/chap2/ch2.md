@@ -1,0 +1,3 @@
+## Test
+
+{{ IDE('scripts/exemple') }}
