@@ -1,0 +1,171 @@
+/* Page */
+html {
+	top:0;
+}
+body {
+	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+	font-size: 1em;
+	line-height: 1.25;
+	color: black;
+	background: beige;
+	margin-left: 20%;
+	top:0;
+	padding: 3em;
+}
+
+/* Titres */
+.title{text-align:center;}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0 .5em 0;
+}
+h1, h2 , h3 , h4 {
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+	font-weight: bold;
+}
+h1 {
+	font-size: 2em;
+	font-style: italic;
+}
+h2 {font-size: 1.6em;}
+h3 {font-size: 1.4em;}
+h4 {font-size: 1.2em;}
+
+/* Listes */
+ul, ol {
+	margin: .75em 0 .75em 24px;
+	padding: 0; /* -> 9 */
+}
+ul, ol {
+	list-style: square;
+}
+li {
+	margin: 0;
+	padding: 0;
+}
+
+/* Paragraphes */
+p {
+	margin: .75em 0;
+}
+li p, blockquote p {
+	margin: .5em 0;
+}
+
+/* Tableaux */
+table {
+    border-spacing: 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+table th {
+    padding: 3px 10px;
+    background-color: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+table td {
+    padding: 3px 10px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/* Liens */
+a {
+	color: black;
+	text-decoration: underline;
+}
+a:hover, a:focus {
+	color: crimson;
+}
+a img {
+	border: none; /* -> 10 */
+}
+
+/* Divers Elements de type en-ligne */
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+	color: dimgray;
+}
+	
+/* Divisions */
+div#TOC {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 20%;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 30px;
+  line-height: 2;
+  height:100%;
+  overflow-y:scroll;
+  font-size: 12px;
+}	
+
+
+.section img {
+	max-width:100%;
+	height:auto;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.html{
+	color:navy;
+	font-weight:bold;}
+	
+/* --- STYLES POUR CERTAINS CONTENUS DES GABARITS --- */
+
+pre, code, .python {
+	font-size:100%;  /*100 % au dÃ©part - fs*/
+	font-family: "Bitstream Vera Mono", "Lucida Console", "Courier New", monospace;
+}
+pre, .python_to_html {
+	width: 95%;
+	overflow: auto;
+	overflow-y: hidden;
+	margin: .75em 0;
+	padding: 12px;
+	background: #eee;
+	color: black;
+	/* fs CSS3*/
+	box-shadow: 5px 5px 5px grey;
+	border-radius:15px;	
+}
+pre strong {
+	font-weight: normal;
+	color: black;
+}
+#copyright {
+	margin: 20px 0 5px 0;
+	text-align: right;
+	font-size: .8em;
+	color: #848F63;
+}
+#copyright a {
+	color: #848F63;
+	text-decoration: none;
+}
+#copyright a:hover, #copyright a:focus {
+	text-decoration: underline;
+}
+
+.nav_actif{
+/*navigation*/
+    background-color:#cbd888;
+    font-weight:bold;
+    border-radius:10px;
+}
+
+
+
