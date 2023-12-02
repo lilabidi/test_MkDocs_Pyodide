@@ -1,4 +1,4 @@
-# Pyodide
+# Pyodide test
 
 On peut avoir un IDE avec un fichier Python préchargé.
 
